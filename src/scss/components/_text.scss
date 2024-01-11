@@ -1,0 +1,36 @@
+.text-info {
+    margin: 0;
+    font-size:  20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+
+    &_md {
+        font-size: 24px;
+    }
+}
+
+.text {
+    margin: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.text-way {
+    margin: 0;
+    font-size: 15px;
+    font-family: Exo2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.text-mini {
+    margin: 0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}

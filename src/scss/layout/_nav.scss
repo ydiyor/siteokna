@@ -1,0 +1,117 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+
+
+    &__logo {
+        width: 43px;
+
+
+    }
+
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 0 0 0 320px ;
+    font-family: Exo2;
+    font-style: normal;
+    font-size: 13px;
+
+
+
+    &__link {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: var(--text-color);
+        text-decoration: none;
+
+
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+
+}
+
+.contacts {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 0 0 100px ;
+    font-family: Exo2;
+    font-style: normal;
+
+    &__link {
+        color: var(--text-color);
+        text-decoration: none;
+        font-family: Exo2;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__write-director {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-family: Exo2;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+        &:hover {
+            color: var(--primary-color);
+        }
+
+    &__btn-nav {
+            display: inline-block;
+            justify-self: center;
+            margin-left: 24px;
+            width: 150px;
+            height: 40px;
+            font-family: Exo2;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%;
+            color: var(--text-color);
+            background-color: var(--primary-color-light);
+            border-radius: 6px;
+            border-color: var(--primary-color);
+
+        }
+
+
+    }
+
+    .catalog {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: Exo2;
+        font-style: normal;
+        gap: 50px;
+        font-size: 13px;
+        text-decoration: none;
+
+        &__link {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+            &:hover {
+            color: var(--primary-color);
+            }
+    }
+
+
+

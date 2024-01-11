@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & OpenGraph -->
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/images/og.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="">
+
+    <!-- Favicon -->
+    @@include('layout/_favicon.html')
+
+    <!-- Preload Fonts -->
+    @@include('layout/_fonts.html')
+
+    <!-- Styles -->
+    @@include('layout/_styles.html')
+</head>
+<body>
+    <!-- Header -->
+    @@include('layout/_header.html')
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Offer -->
+        <section class="offer">
+            <div class="container">
+                <a class="offer__way text-way" href="#">Главная</a>
+                <a class="offer__ways " href="#">/  Пластиковые окна Veka Softline 70</a>
+                <div class="offer__content">
+                    <h1 class="offer__title h1">Миссия компании</h1>
+                    <p class="offer__text text-info">Наша миссия - доовльные клиенты, готовые нас рекомендовать!</p>
+                    <button class="offer__btn btn reset-btn" type="button">Заказать звонок</button>
+                    <div class="offer__img">
+                        <picture>
+                            <!-- <source srcset="./assets/images/offer.avif" type="image/avif">
+                            <source srcset="./assets/images/offer.webp" type="image/webp"> -->
+                            <img src="./assets/images/slider.png" alt="Изображение автомобиля">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Offer -->
+        <!-- Advanced -->
+        <section class="advanced">
+            <div class="container">
+                <div class="advanced__group">
+                    <h2 class="advanced__title h2">История компании</h2>
+                    <div class="advancedbtn">
+                    <button class="advanced__btn btn reset-btn" type="button">История компании</button>
+                    </div>
+                </div>
+                <div class="cards-holder">
+                    <div class="advanced-card">
+                        <img class="advanced-card__cards-logo" src="./assets/images/rocket.svg" alt="Логотип">
+                        <h4 class="advanced-cards__title h4">2017</h4>
+                        <p class="cards__text-info">Компания Райт Окна начала свой путь в Новосибирске в 2017 году под названием “Пластика для Окон”</p>
+                    </div>
+                    <div class="advanced-card">
+                        <img class="advanced-card__cards-logo" src="./assets/images/group.svg" alt="Логотип">
+                        <h4 class="advanced-cards__title h4">2017</h4>
+                         <p class="cards__text-info">Компания Райт Окна начала свой путь в Новосибирске в 2017 году под названием “Пластика для Окон”</p>
+                    </div>
+                    <div class="advanced-card">
+                        <img class="advanced-card__cards-logo" src="./assets/images/medal.svg" alt="Логотип">
+                        <h4 class="advanced-cards__title h4">2017</h4>
+                        <p class="advanced-cards__text-info">Компания Райт Окна начала свой путь в Новосибирске в 2017 году под названием “Пластика для Окон”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Advanced -->
+
+        <section class="nows">
+            <div class="container">
+                <div class="nows__content">
+                    <h2 class="nows__title h2">Компания Райт Окна сегодня</h2>
+                    <p class="nows__text text">Является безоговорочным фаворитом в отрасли Производства, установки и ремонта пластиковых окон в Новосибирске и Кемеровской области.</p>
+                    <p class="nows__texts text">Короткая справка о результатах деятельности Компании в Новосибирске:</p>
+                    <button class="nows__btn btn reset-btn" type="button">Призыв к действию</button>
+                </div>
+                <ul style="list-style-type: none" class="nows__list reset-list">
+                    <li>
+                        <div class="nows-card">
+                            <div class="nows-card__icon">
+                                <img src="./assets/images/window.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="nows-card__title h4">9 000 м2 окон в год</h4>
+                            <p class="nows-card__text text">по статистике за последние 3 года в Новосибирске, Мы производим и устанавливаем порядка 9 000 м2 пластиковых окон в квартиры и частные дома ежегодно. Что практически равно 5 000 окон в штуках.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nows-card">
+                            <div class="nows-card__icon">
+                                <img src="./assets/images/balkony.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="nows-card__title h4">3 000 м2 балконов в год</h4>
+                            <p class="nows-card__text text">означает, что ежегодно мы устанавливаем практически 1000 балконов!
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nows-cards">
+                            <div class="nows-cards__icon">
+                                <img src="./assets/images/city.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="nows-cards__title h4">340 компаний</h4>
+                            <p class="nows-card__text text">из Новосибирска работают с нами регулярно. Некоторые из них:
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nows-cards">
+                            <div class="nows-cards__icon">
+                                <img src="./assets/images/man.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="nows-cards__title h4">74 сотрудника</h4>
+                            <p class="nows-cards__text text">Сплоченный и результативный коллектив главной целью которого является выполнить свою работу, превзойдя ожидания Клиента. Состоящий из таких подразделений как:
+                            </p>
+                        </div>
+                    </li>
+                </div>
+        </section>
+
+        <section class="warrantly">
+            <div class="container">
+                <ul style="list-style-type: none" class="warrantly__list reset-list">
+                    <li>
+                        <div class="warrantly-card">
+                            <div class="warrantly-card__icon">
+                                <img src="./assets/images/blago.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="warrantly-card__title h4">Благотворительность</h4>
+                            <p class="warrantly-card__text text">Регулярно наша Компания осуществляет производство и монтаж пластиковых окон на безвозмездной основе немалому количеству Общественных и Бюджетных организаций.
+                            </p>
+                            <p class="warrantly__texts text">Наша задача в благотворительности - быть примером для других организаций, благодаря чему Мы сможем помочь тысячам организаций и учреждений.
+                            </p>
+                            <div class="warrantlybtn">
+                            <button class="warrantly__btn-mini btn-mini reset-btn" type="button">Благотворительность</button>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="warrantly-card">
+                            <div class="warrantly-card__icon">
+                                <img src="./assets/images/veka.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="warrantly-card__title h4">Официальный партнер Компании VEKA</h4>
+                            <p class="warrantly-card__text text">Пластиковые окна VEKA по праву считаются одними из лучших в мире.
+                            </p>
+                            <p class="warrantly-card__textos text">Предложения по продаже пластиковых окон VEKA слышны из сотни компаний Новосибирска и Кемерово, учитывая это нужно проверить, действительно ли данные компании сертифицированы заводом VEKA.
+
+                            </p>
+                            <div class="warrantlybtn">
+                            <button class="warrantly__btn-mini btn-mini reset-btn" type="button">Подробнее</button>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="warrantly-card">
+                            <div class="warrantly-card__icon">
+                                <img src="./assets/images/proiz.png" alt="Иконка 1">
+                            </div>
+                            <h4 class="warrantly-card__title h4">Благотворительность</h4>
+                            <p class="warrantly-card__text text">Наша Компания занимает лидирующие позиции в направлении производства пластиковых окон в Новосибирске и Кемерово, что подтверждается ростом ежегодной производительности в объемах, в среднем - это
+                            </p>
+                            <h2 class="warrantly-card__title h2">+37% год от года</h2>
+                            <div class="warrantlybtn">
+                            <button class="warrantly__btn-mini btn-mini reset-btn" type="button">Подробнее</button>
+                        </div>
+                        </div>
+                    </li>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__info">
+                    <h2 class="feedback__title h2">Отзывы клиентов</h2>
+                    <p class="feedback__text text">Стоит признать, что ежедневно в Компанию поступает от 40 до 70 обращений на замер и ремонт окон в Новосибирске и Кемерово. </p>
+                    <p class="feedback__textos text">Что обусловлено безупречным качеством и высоким профессионализмом наших сотрудников, в качестве подтверждения - Клиенты оставляют нам  немало положительных отзывов.
+                    </p>
+                    <button class="feedback__btn btn reset-btn" type="button">Смотреть все</button>
+                </div>
+                <ul class="feedback__cards">
+                <li class="feedback-card">
+                    <div class="feedback-card__icon">
+                        <img src="./assets/images/flamper.png" alt="Логотип флампер">
+                    </div>
+                    <h4 class="feedback-card__title h4">Флампер</h4>
+                    <a class="feedback-card__otz reset-link" href="#">3 ОТЗЫВА</a>
+                    <picture class="feedback-card__reit">
+                        <img src="./assets/images/reit.png" alt="Рейтинг">
+                    </picture>
+                    <p class="feedback-card__text text-mini">За долгое время работы, мы обрели бесценный опыт который позволяет подстроиться под Ваши задачи:
+                        - Честная рассрочка! Внутри Компании, без процентов </p>
+                    <a class="feedback-card__link reset-link text-mini" href="#">Подробнее</a>
+                    <div class="feedback-card__slider">
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                </div>
+                </li>
+                <li class="feedback-card">
+                    <div class="feedback-card__icon">
+                        <img src="./assets/images/flamper.png" alt="Логотип флампер">
+                    </div>
+                    <h4 class="feedback-card__title h4">Флампер</h4>
+                    <a class="feedback-card__otz reset-link" href="#">3 ОТЗЫВА</a>
+                    <picture class="feedback-card__reit">
+                        <img src="./assets/images/reit.png" alt="Рейтинг">
+                    </picture>
+                    <p class="feedback-card__text text-mini">За долгое время работы, мы обрели бесценный опыт который позволяет подстроиться под Ваши задачи:
+                        - Честная рассрочка! Внутри Компании, без процентов </p>
+                    <a class="feedback-card__link reset-link text-mini" href="#">Подробнее</a>
+                    <div class="feedback-card__slider">
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                    <picture>
+                        <img src="./assets/images/slide.png" alt="Изображение окна">
+                    </picture>
+                </div>
+                </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="vacancy">
+            <div class="container">
+                <h2 class="vacancy__title h2">Вакансии</h2>
+                <p class="vacancy__text text">Главная причина большого количества достижений нашей Компании - сотрудники. Из года в год мы ставим новые амбициозные цели и задачи, по причине чего регулярно появляется необходимость в расширении штата сотрудников и открытии новых направлений Компании. </p>
+                <button class="vacancy__btn btn reset-btn" type="button">Подробнее</button>
+                    <picture class="vacancy__ramka">
+                        <img src="./assets/images/ramka.png" alt="Рамка книги">
+                    </picture>
+                    <picture class="vacancy__book">
+                        <img src="./assets/images/book.png" alt="книга">
+                    </picture>
+            </div>
+        </section>
+
+        <section class="sertifications">
+            <div class="container">
+                <h2 class="sertifications__title h2">Сертификаты</h2>
+                <ul style="list-style-type: none" class="sertifications__arrows">
+                    <li class="sertifications__arrow">
+                        <a href="#">
+                        <img src="./assets/images/left.png" alt="Стрелка влево">
+                    </a>
+                    </li>
+                    <li class="sertifications__arrow">
+                        <a href="#">
+                        <img src="./assets/images/right.png" alt="Стрелка вправо">
+                        </a>
+                    </li>
+                </ul>
+                <ul style="list-style-type: none" class="sertifications__cards">
+                    <li class="sertifications__card">
+                        <div class="sertifications__card-img">
+                            <img src="./assets/images/sert.png" alt="Иконка сертификата">
+                        </div>
+                        <p class="sertifications__text">СЕРТИФИКАТ</p>
+                        <h4 class="sertifications__card-title h4">Название сертификата</h4>
+                    </li>
+                    <li class="sertifications__card">
+                        <div class="sertifications__card-img">
+                            <img src="./assets/images/sert.png" alt="Иконка сертификата">
+                        </div>
+                        <p class="sertifications__text">СЕРТИФИКАТ</p>
+                        <h4 class="sertifications__card-title h4">Название сертификата</h4>
+                    </li>
+                    <li class="sertifications__card">
+                        <div class="sertifications__card-img">
+                            <img src="./assets/images/sert.png" alt="Иконка сертификата">
+                        </div>
+                        <p class="sertifications__text">СЕРТИФИКАТ</p>
+                        <h4 class="sertifications__card-title h4">Название сертификата</h4>
+                    </li>
+                    <li class="sertifications__card">
+                        <div class="sertifications__card-img">
+                            <img src="./assets/images/sert.png" alt="Иконка сертификата">
+                        </div>
+                        <p class="sertifications__text">СЕРТИФИКАТ</p>
+                        <h4 class="sertifications__card-title h4">Название сертификата</h4>
+                    </li>
+            </ul>
+            <picture class="sertifications__pag">
+                <img src="./assets/images/pagination.svg" alt="Рамка книги">
+            </picture>
+        </section>
+        <section class="requisites">
+            <div class="container">
+                    <h2 class="requisites__title h2">Реквизиты</h2>
+                    <ul style="list-style-type: none" class="requisites__buttons">
+                        <li class="requisites__button">
+                            <button class="requisites__btn btn-mini reset-btn" type="button">ООО "Райт окна"</button>
+                        </li>
+                        <li class="requisites__button">
+                            <button class="requisites__btn btn-mini reset-btn" type="button">Дилеры г.Кемерово</button>
+                        </li>
+                        <li class="requisites__button">
+                            <button class="requisites__btn btn-mini reset-btn" type="button">Дилеры г.Новосибирск</button>
+                        </li>
+                        <li class="requisites__button">
+                            <button class="requisites__btn btn-mini reset-btn" type="button">Дилерские торговые точки</button>
+                        </li>
+                    </ul>
+
+            </div>
+        </section>
+    <!-- Footer -->
+    @@include('layout/_footer.html')
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    @@include('layout/_scripts.html')
+</body>
+</html>
